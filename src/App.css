@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    padding: 2rem;
+    text-align: center;
+    background: #f5f5f5;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  .dark {
+    background: #222;
+    color: white;
+  }
+  
+  .input-section {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    margin: 10px 0;
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+    padding: 6px 12px;
+    display: inline-block;
+  }
+  
+  .todo-item span.done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
